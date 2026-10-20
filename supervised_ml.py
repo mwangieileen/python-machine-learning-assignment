@@ -20,14 +20,18 @@ print("Predicted exam score:",round(prediction[0],2))
 #Visualization on matplot
 #creating scatter plot
 plt.scatter(x,y)
+
 #adding regression line
 plt.plot(x,model.predict(x),color="red",label="Line of best fit")
+
 #add prediction on graph with separate colour
 plt.scatter(hours,prediction,color="yellow",label="Prediction")
+
 #labelling
 plt.xlabel("Study Hours")
 plt.ylabel("Examination Scores")
 plt.title("Relationship between study hours and examination scores")
 plt.legend()
+
 #display
 plt.show()
