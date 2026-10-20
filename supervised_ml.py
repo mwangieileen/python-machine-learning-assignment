@@ -19,7 +19,7 @@ print("Predicted exam score:",round(prediction[0],2))
 
 #Visualization on matplot
 #creating scatter plot
-plt.scatter(x,y)
+plt.scatter(x,y,label="Training Data")
 
 #adding regression line
 plt.plot(x,model.predict(x),color="red",label="Line of best fit")
