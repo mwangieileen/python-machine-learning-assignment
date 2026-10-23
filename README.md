@@ -1,13 +1,13 @@
-Name:Eileen Njoki Mwangi
-Project Title: python-machine-learning-assignment
+**Name:Eileen Njoki Mwangi
+**Project Title: python-machine-learning-assignment
 
-#Supervised Learning project Description:
+**Supervised Learning project Description:
 This project predicts examination scores based on hours studied. It uses linear regression algorithm (supervised learning) to learn the relationship between hours studies and examination scores. The trained model then predicts expected examination score for a student based on their hours studied.Matplotlib has been used to visualize the relationship between study hours and examination score.
 
-#Unsupervised Learning project Description:
+**Unsupervised Learning project Description:
 This project groups customers based on their monthly spending and monthly visits to a supermarket. It uses K-Means algorithm (unsupervised learning) to identify patterns and assing customers to groups.Matplotlib has also been used to visualize the customer groups with different colors representing different groups.
 
-#Instructions for installing dependencies and running code.
+****Instructions for installing dependencies and running code.
     #Your machine should have the following installed:
 Python or Python3
 Git
@@ -30,7 +30,7 @@ numpy
     Also note: Project unsupervised_ml has 2 output formats, one is as per the example given and the 2nd one is human readable output.
 
 
-#Answers to the theory Questions 
+**Answers to the theory Questions 
 1.Supervised ML(machine learning) is a type of ML where the algorithm is trained using labeled data,that is, inputs(features) and outputs(labels).
 
 2.Unsupervised ML is a type of machine learning where the algoriths is trained using unlabelled data but it uses the grouping of related data by studying relationships/patterns. Its output is groups which contain related data
